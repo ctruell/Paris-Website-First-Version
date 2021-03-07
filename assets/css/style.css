@@ -1,0 +1,99 @@
+body {
+	background-color: #FFE1E1;
+	color: #c71585;
+	font-family: "AvenirLTStd-Roman", Ariel;
+}
+h1 {
+	font-family: "Snell Roundhand", cursive;
+	text-align: center;
+}
+#header {
+	background-image: url("assets/media/eiffel_tower.jpg");
+	background-repeat: no-repeat;
+}
+#header h1 {
+	line-height: 290px;
+}
+#nav {
+	text-align: center;
+}
+a {
+	color: #c71585;
+	text-decoration: none;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition:.5s;
+  	padding: .5%;
+  	margin-left: 1%;
+  	margin-right: 1%;
+}
+a:visited {
+	color: #c71585;
+	text-decoration: none;
+}
+a:hover {
+	color: purple;
+	text-decoration: none;
+	border-bottom: solid 2px;
+}
+a:active {
+	color: purple;
+	text-decoration: none;
+	border-bottom: solid 2px;
+}
+.nobr {
+	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+  	margin-top: 2%;
+}
+img {
+	width: 25%;
+	-o-transition: .5s;
+  	-ms-transition: .5s;
+  	-moz-transition: .5s;
+  	-webkit-transition: .5s;
+  	transition: .5s;
+}
+img:hover {
+	opacity: 0.5;
+}
+@media screen and (max-width: 750px) {
+	figure img {
+		width: 25%;
+  		display: inline-block;
+	}
+}
+.maps {
+	width: 25%;
+	margin-right: 2%;
+	margin-left: 2%;
+	float: right;
+}
+.par {
+	margin-right: 6%;
+	padding-left: 2%;
+}
+#one {
+	margin-top: 4%;
+}
+.arr:hover{
+	border-bottom: 0px;
+}
+.h {
+	margin-right: 6%;
+	padding-left: 2%;
+	text-align: left;
+}
+.cont {
+	display: inline-flex;
+}
+#cent {
+	margin-right: 38%;
+	margin-left: 38%;
+	margin-top: 12%;
+	margin-bottom: 12%;
+}
